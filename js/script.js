@@ -119,3 +119,4 @@ console.log(5 === '5');
 const isChecked = false,
     isClose = false;
 console.log(isChecked || !isClose);
+console.log('Hi!');
