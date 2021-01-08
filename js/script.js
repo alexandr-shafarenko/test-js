@@ -112,11 +112,10 @@
 // console.log(incr++);
 // console.log(decr--);
 
-console.log(5%2);
+console.log(5 % 2);
 console.log(5 == '5');
 console.log(5 === '5');
 
 const isChecked = false,
-      isClose = false;
+    isClose = false;
 console.log(isChecked || !isClose);
-
