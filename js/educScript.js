@@ -121,3 +121,55 @@
 // console.log(isChecked || !isClose);
 // console.log('Hi!');
 
+let num = 50;
+while (num <= 55) {
+    console.log(num);
+    num++;
+}
+
+let num1 = 50;
+do {
+    console.log(num1);
+    num1++;
+} while (num1 <= 55);
+
+let num2 = 50;
+for (let index = 0; index < num2; index++) {
+    if (index === 6) {
+        continue;
+    }
+    console.log(index);
+}
+
+if (4 == 9) {
+    console.log('Ok!');
+} else {
+    console.log('Error!');
+}
+
+const num3 = 50;
+if (num3 < 49) {
+    console.log('Error!');
+} else if (num3 > 100) {
+    console.log('Error!');
+} else {
+    console.log('Ok!');
+}
+
+const abc = (num3 === 50) ? console.log('Ok!') : console.log('Error!');
+
+const num4 = 50;
+switch (num4) {
+    case 49:
+        console.log('Error!');
+        break;
+    case 100:
+        console.log('Error!');
+        break;
+    case 50:
+        console.log('Ok!');
+        break;
+    default:
+        console.log('Not Ok!');
+        break;
+}
